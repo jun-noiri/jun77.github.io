@@ -1,0 +1,199 @@
+* {
+  list-style: none;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  height: 65px;
+  z-index: 100;
+  position: fixed;
+}
+
+.header-right img {
+  width: 124px;
+  height: 22.83px;
+  margin-top: 20px;
+  margin-left: 15px;
+  float: left;
+}
+
+.header-list a {
+  color: white;
+  float: right;
+  display: block;
+  padding: 0 25px;
+  line-height: 65px;
+}
+
+.middle-first {
+  text-align: center;
+  color: white;
+  background-image: url("https://prog-8.com/images/html/advanced/top.png");
+  background-size: cover;
+  padding: 180px 0 100px 0;
+}
+
+.first-text {
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.first-text h2 {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.first-text p {
+  margin: 25px 0;
+}
+
+.middle-first a {
+  color: white;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 20px;
+  opacity: 0.7;
+}
+
+.applying-form span {
+  padding-right: 7px;
+}
+
+.applying-form div {
+  margin: 16px 20px;
+  opacity: 0.7;
+}
+
+.applying {
+  background-color: #239b76;
+}
+.applying:hover {
+  opacity: 1;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.facebook:hover {
+  opacity: 1;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-bottom: 100px;
+}
+.twitter:hover {
+  opacity: 1;
+}
+
+.middle-second {
+  background-color: #f7f7f7;
+  padding-bottom: 500px;
+  text-align: center;
+  
+}
+.second-title{
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+.middle-list{
+  float: left;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.middle-list p{
+  opacity: 0.7;
+  padding-top: 10px;
+  color: #b3aeb5;
+}
+
+.lesson-icon{
+  position: relative;
+}
+
+.lesson-icon h2{
+  position: absolute;
+  top:30%;
+  width: 100%;
+  color: white;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle-third {
+  text-align: center;
+  margin: 25px 0 25px 0;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.middle-third h2 {
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.middle-third h3 {
+  font-weight: normal;
+  font-size: 1.17em;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
+
+.middle-third span {
+  display: inline-block;
+  border: 1px solid #5dca88;
+  background-color: #5dca88;
+  box-shadow: #1a7940 0 7px;
+  border-radius: 3px;
+  color: white;
+  opacity: 0.8;
+  width: 150px;
+  padding: 10px 30px;
+  margin-bottom: 80px;
+}
+
+.middle-third span:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  border-top: solid 1px #b3aeb5;
+  padding: 30px 0 20px 0;
+}
+footer img {
+  width: 124px;
+  padding-left: 15px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+  padding-left: 15px;
+}
